@@ -51,6 +51,6 @@
         };
     };
 };
-&trackball_peripheral {
+&kscan0 {
     res-cp = <1200>;
 };
