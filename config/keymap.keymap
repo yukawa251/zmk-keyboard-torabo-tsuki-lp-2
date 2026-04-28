@@ -51,3 +51,6 @@
         };
     };
 };
+&trackball_peripheral {
+    res-cp = <1200>;
+};
