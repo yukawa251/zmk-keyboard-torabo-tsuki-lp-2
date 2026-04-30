@@ -48,9 +48,9 @@
         layer_1 {
             bindings = <
 &trans  &trans            &trans            &trans            &trans            &trans                                  &trans  &trans            &trans            &trans  &trans  &trans
-&trans  &trans            &kp JP_AMPERSAND        &kp LS(COLON)     &kp LS(N8)        &kp LS(N9)                              &trans  &kp LBKT          &kp RBKT          &trans  &trans  &trans
-&trans  &kp LS(EQUAL)     &kp LS(N4)        &kp LS(N5)        &kp LCTRL         &trans                          &trans  &trans  &kp LS(N8)        &kp LS(N9)  &kp INT_RO  &trans  &trans
-&trans  &mt LSHIFT MINUS  &kp LS(N1)        &kp LS(N2)        &kp LS(N3)        &trans                          &trans  &trans  &kp LS(LBKT)      &kp LS(RBKT)  &kp LS(INT_RO)  &trans  &trans
+&trans  &trans            &kp JP_AMPERSAND        &kp JP_ASTERISK     &kp JP_LPAREN        &kp JP_RPAREN                              &trans  &kp JP_LBRACKET          &kp JP_RBRACKET          &trans  &trans  &trans
+&trans  &kp JP_BACKQUOTE     &kp DOLLAR        &kp PERCENT        &kp JP_CARET         &trans                          &trans  &trans  &kp JP_LPAREN        &kp JP_RPAREN  &kp JP_YEN  &trans  &trans
+&trans  &mt LSHIFT MINUS  &kp EXCLAMATION        &kp JP_AT        &kp HASH        &trans                          &trans  &trans  &kp JP_LBRACE      &kp JP_RBRACE  &kp JP_PIPE  &trans  &trans
 &trans  &trans            &trans            &trans            &trans            &trans                          &trans  &trans  &trans            &trans            &trans  &trans  &trans
             >;
         };
