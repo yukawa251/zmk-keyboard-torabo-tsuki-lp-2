@@ -47,11 +47,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans            &trans            &trans            &trans            &trans                                  &trans  &trans            &trans            &trans  &trans  &trans
-&trans  &trans            &kp JP_AMPERSAND        &kp JP_ASTERISK     &kp JP_LPAREN        &kp JP_RPAREN                              &trans  &kp JP_LBRACKET          &kp JP_RBRACKET          &trans  &trans  &trans
-&trans  &kp JP_BACKQUOTE     &kp DOLLAR        &kp PERCENT        &kp JP_CARET         &trans                          &trans  &trans  &kp JP_LPAREN        &kp JP_RPAREN  &kp JP_YEN  &trans  &trans
-&trans  &kp MINUS  &kp EXCLAMATION        &kp JP_AT        &kp HASH        &trans                          &trans  &trans  &kp JP_LBRACE      &kp JP_RBRACE  &kp JP_PIPE  &trans  &trans
-&trans  &trans            &trans            &trans            &trans            &trans                          &trans  &trans  &trans            &trans            &trans  &trans  &trans
+&trans  &trans            &trans            &trans           &trans         &trans                         &trans  &trans           &trans           &trans       &trans  &trans
+&trans  &trans            &kp JP_AMPERSAND  &kp JP_ASTERISK  &kp JP_LPAREN  &kp JP_RPAREN                  &trans  &kp JP_LBRACKET  &kp JP_RBRACKET  &trans       &trans  &trans
+&trans  &kp JP_BACKQUOTE  &kp DOLLAR        &kp PERCENT      &kp JP_CARET   &trans         &trans  &trans  &trans  &kp JP_LPAREN    &kp JP_RPAREN    &kp JP_YEN   &trans  &trans
+&trans  &kp MINUS         &kp EXCLAMATION   &kp JP_AT        &kp HASH       &trans         &trans  &trans  &trans  &kp JP_LBRACE    &kp JP_RBRACE    &kp JP_PIPE  &trans  &trans
+&trans  &trans            &trans            &trans           &trans         &trans         &trans  &trans  &trans  &trans           &trans           &trans       &trans  &trans
             >;
         };
 
